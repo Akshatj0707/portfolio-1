@@ -1,0 +1,168 @@
+export const profile = {
+  name: 'Akshat Jain',
+  email: 'akshatjain9804@gmail.com',
+  phone: '+91 89594 91967',
+  phoneHref: '+918959491967',
+  location: 'Indore, Madhya Pradesh',
+  linkedin: 'https://www.linkedin.com/in/akshatjain3108',
+  github: 'https://github.com/Akshatj0707',
+  resume: './public/AKSHAT_RESUME_Formal.PDF',
+  portrait: './public/images/akshat-jain-cutout.png',
+};
+
+export const perspectives = [
+  {
+    id: 'build',
+    label: 'Build',
+    title: 'Give an idea structure.',
+    detail: 'Create responsive web products, secure APIs, and the experiences that make complex tools feel clear.',
+    skills: 'React · Next.js · Node.js · TypeScript · REST · GraphQL',
+  },
+  {
+    id: 'data',
+    label: 'Analyze',
+    title: 'Make information useful.',
+    detail: 'Turn raw data into sound analysis, automated workflows, and dashboards that help teams make decisions.',
+    skills: 'Python · Pandas · Alteryx · SQL · Power BI · Tableau',
+  },
+  {
+    id: 'explore',
+    label: 'Explore AI',
+    title: 'Make emerging tools practical.',
+    detail: 'Explore generative AI and applied machine learning with an eye toward useful, responsible applications.',
+    skills: 'LLMs · Prompt engineering · LangChain · RAG · Scikit-learn',
+  },
+];
+
+export const skills = [
+  { label: 'Frontend', detail: 'React, Next.js, TypeScript, Redux, Tailwind CSS, Bootstrap, Material UI, responsive design, SSR', code: '01' },
+  { label: 'Backend & APIs', detail: 'Node.js, Express, REST, GraphQL, JWT, RBAC, Socket.io', code: '02' },
+  { label: 'Data analysis', detail: 'Python, Pandas, NumPy, EDA, data cleaning, feature engineering, statistical analysis, predictive modeling', code: '03' },
+  { label: 'BI & visualization', detail: 'Alteryx, Power BI, Tableau, Matplotlib, Seaborn, Chart.js, KPI dashboards, MIS reporting', code: '04' },
+  { label: 'Data platforms', detail: 'SQL, MongoDB, MySQL, PostgreSQL, Mongoose, Prisma, schema design, indexing, ETL', code: '05' },
+  { label: 'AI & machine learning', detail: 'Generative AI, LLMs, prompt engineering, LangChain, RAG, vector databases, Hugging Face, OpenCV', code: '06' },
+  { label: 'Engineering practice', detail: 'Docker, microservices, CI/CD, npm, Webpack, Git/GitHub, code reviews, Agile/Scrum', code: '07' },
+];
+
+export const projects = [
+  {
+    number: '01',
+    title: 'E-Nagarpalika',
+    category: 'Public services · Live production',
+    description: 'A production-deployed municipal citizen services portal for Indore Municipal Corporation, with server-rendered pages and secure, multi-role access.',
+    outcome: 'JWT-secured APIs · RBAC · GraphQL · MongoDB indexing',
+    stack: ['React', 'Next.js', 'Node.js', 'Express', 'MongoDB', 'JWT'],
+    tone: 'portal',
+    visual: 'municipal',
+    github: 'https://github.com/Akshatj0707/E_NagarPalika',
+  },
+  {
+    number: '02',
+    title: 'Uber Clone',
+    category: 'Mobility · Full stack',
+    description: 'A real-time ride-hailing experience for rider-driver matching, live location tracking, route planning, and fare estimates.',
+    outcome: 'Socket.io matching · Google Maps routing · JWT role-based access',
+    stack: ['React', 'Node.js', 'Express', 'MongoDB', 'Socket.io', 'Google Maps'],
+    tone: 'mobility',
+    visual: 'rideshare',
+    github: 'https://github.com/Akshatj0707/Cuber',
+  },
+  {
+    number: '03',
+    title: 'Productivity Analytics Dashboard',
+    category: 'Analytics · Full stack',
+    description: 'An analytics platform that brings operational data and key performance indicators into a clear, interactive reporting workspace.',
+    outcome: 'Real-time Chart.js visualizations · Redux · MongoDB-backed MIS reports',
+    stack: ['React', 'Next.js', 'Node.js', 'MongoDB', 'Chart.js', 'REST API'],
+    tone: 'dashboard',
+    visual: 'productivity',
+    github: 'https://github.com/Akshatj0707/Productivity-dashboard',
+  },
+  {
+    number: '04',
+    title: 'Crave',
+    category: 'Food delivery · Restaurant operations',
+    description: 'A multi-role food delivery and restaurant management platform for customers, restaurant partners, and administrators.',
+    outcome: '35+ REST APIs · 13-table schema · Stripe payments · live order tracking',
+    stack: ['React', 'Node.js', 'Express', 'PostgreSQL', 'Stripe', 'JWT'],
+    tone: 'food',
+    visual: 'crave',
+    github: 'https://github.com/Akshatj0707/Crave-food-delivery-and-restaurant-management-platform',
+  },
+  {
+    number: '05',
+    title: 'Telco Customer Churn',
+    category: 'Data analytics · Prediction',
+    description: 'Exploratory analysis and churn prediction across a 7,000+ customer dataset to uncover key retention patterns and churn drivers.',
+    outcome: 'Logistic Regression · Random Forest · feature analysis',
+    stack: ['Python', 'Pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'Scikit-learn'],
+    tone: 'analytics',
+    visual: 'churn',
+  },
+  {
+    number: '06',
+    title: 'Walmart Store Sales',
+    category: 'Data analytics · Exploratory analysis',
+    description: 'An exploration of multi-store weekly sales, seasonality, and holiday effects, with external factors compared against sales trends.',
+    outcome: 'Weekly trends · seasonality · fuel price, CPI & unemployment analysis',
+    stack: ['Python', 'Pandas', 'Matplotlib', 'Seaborn'],
+    tone: 'retail',
+    visual: 'retail',
+  },
+  {
+    number: '07',
+    title: 'Walmart Sales Prediction',
+    category: 'Data analytics · Forecasting',
+    description: 'Regression models built to forecast weekly store sales and assess how well each model captures observed demand.',
+    outcome: 'Linear Regression · Random Forest Regressor · RMSE / MAE',
+    stack: ['Python', 'Scikit-learn', 'Regression modeling'],
+    tone: 'forecast',
+    visual: 'forecast',
+  },
+];
+
+export const milestones = [
+  {
+    date: '2026—NOW',
+    title: 'Social Media Marketing Intern',
+    detail: 'Aspire Marketing Solutions · Creating social content and campaign assets, managing social pages, and learning Meta Ads and brand communication.',
+    tag: 'Experience · Aspire Marketing Solutions',
+  },
+  {
+    date: 'JUN—JUL 2026',
+    title: 'Software Engineering Intern',
+    detail: 'India Space Lab · Contributed to AI-driven software development, full-stack engineering, and applied machine learning in cloud environments.',
+    tag: 'Experience · India Space Lab · Remote',
+  },
+  {
+    date: 'JUN—JUL 2026',
+    title: 'Data Analytics Intern',
+    detail: 'Medicaps University · Worked with Alteryx on data preparation and ETL, workflow automation, and predictive and spatial analytics.',
+    tag: 'Experience · Summer Internship Program',
+  },
+  {
+    date: 'JUN—JUL 2025',
+    title: 'Junior Full-Stack Developer · IT Intern',
+    detail: 'Indore Municipal Corporation · Built and deployed the E-Nagarpalika citizen services portal, delivering JWT-secured APIs, RBAC, GraphQL integration, and MongoDB indexing.',
+    tag: 'Experience · Internship with Mayor program',
+  },
+  {
+    date: '2023—27',
+    title: 'B.Tech · Information Technology (Data Engineering)',
+    detail: 'Medicaps University, Indore · Coursework includes data structures and algorithms, databases, web technologies, operating systems, and computer networks.',
+    tag: 'Education · Medicaps University',
+  },
+];
+
+export const recognitions = [
+  'Alteryx Designer Advanced · Certified through July 2028',
+  'Alteryx Designer Core · Certified through July 2028',
+  'Alteryx Designer Cloud Core · Certified through July 2028',
+  'AI Essentials · Data Foundations · Responsible AI & Governance',
+  'Prompt Engineering · Alteryx One Workspace & Account Administrator',
+  'Advanced Data Structures and Algorithms · Board Infinity · April 2026',
+  'Job-Ready AI-Powered Cohort 2.0 · Sheryians Coding School',
+  'C++ Essentials 1 · Cisco Networking Academy',
+  'HTML & Web Fundamentals · EduPyramid Spoken Tutorial, IIT Bombay',
+  'ISO 9001:2015 QMS Certification',
+];
